@@ -17,7 +17,3 @@ The other tab demonstrates how to listen for and respond to changes in navigatio
 - **Navigating** - event raised when the `WebView` begins navigating to a new page.
 - **Navigated** - event raised when the `WebView` has completed navigating.
 
-Author
-------
-
-Nathan C. Castle
