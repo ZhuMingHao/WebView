@@ -1,0 +1,28 @@
+<html>
+<body>
+    <script type="text/javascript">
+        function factorial(num) {
+            if (num === 0 || num === 1)
+                return 1;
+
+            for (var i = num - 1; i >= 1; i--) {
+                num *= i;
+            }
+
+            var x = document.getElementById("Myform").submit();
+        
+            return num;
+        }</script>
+
+    <form id="Myform" action="HomePage.html">
+        First name:<br>
+        <input type="text" name="firstname" value="Mickey">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" value="Mouse">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
